@@ -3,11 +3,13 @@ from dotenv import load_dotenv
 
 load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-SESSION_STRING = os.getenv("SESSION_STRING", "")
-OWNER_ID = int(os.getenv("OWNER_ID", "0") or 0)
+API_ID = 21802065
+API_HASH = "2a8d929f6584561a32fc93e1f044652d"
+BOT_TOKEN = "8659720466:AAGUK8GD5fzsH6bC48sG7_6L-Eh46rZwVZc"
+
+SESSION_STRING = "BAFMrFEAJrHvEhuGIMXQ4i-99EApTth52ak6JEqMYyp4PoYbaDrTG8HctlAC1-73wBINtGr4ov2eajix7XsC6W_boT1e6PvsO-jL-3ZPEZb1u-yNZaOkRxdg-nuLrp87_LuXRsfbgu6alacfC81U8kUVYmfDkbwLib972EHP9xKiEVzypjm9MaXb17e5ax1QbmEUcmN-LzRTlerAnDkn-gc0OmIRWWCbsVpLR72h4Mp59JJ1axPStTZR65uJCKI4Lawidf2GDNxoqXgTSaUU4HKVYsHyZ0juEDW45_-_KneHcZq_UFdBhVMImzsNhpxQaIAdCTF-HnaZafuGAujTytIjtFIFyQAAAAH_6HnKAA"
+
+OWNER_ID = 8588392906
 
 DOWNLOADS_DIR = os.path.join(os.path.dirname(__file__), "downloads")
 os.makedirs(DOWNLOADS_DIR, exist_ok=True)
